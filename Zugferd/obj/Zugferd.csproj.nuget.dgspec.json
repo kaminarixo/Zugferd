@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "itextsharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
