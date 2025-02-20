@@ -78,11 +78,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
+      "projectUniqueName": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
       "projectName": "Zugferd",
-      "projectPath": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
+      "projectPath": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
       "packagesPath": "C:\\Users\\thomas.scharf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\obj\\",
+      "outputPath": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thomas.scharf\\AppData\\Roaming\\NuGet\\NuGet.Config"

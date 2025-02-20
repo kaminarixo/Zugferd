@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6tNVJomeKD0=",
+  "dgSpecHash": "iqiCLZx1Yx4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
+  "projectFilePath": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thomas.scharf\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\thomas.scharf\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512"
