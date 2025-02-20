@@ -26,6 +26,18 @@
         "runtime": {
           "lib/net461/itextsharp.dll": {}
         }
+      },
+      "itextsharp.pdfa/5.5.13.4": {
+        "type": "package",
+        "dependencies": {
+          "iTextSharp": "5.5.13.4"
+        },
+        "compile": {
+          "lib/net461/itextsharp.pdfa.dll": {}
+        },
+        "runtime": {
+          "lib/net461/itextsharp.pdfa.dll": {}
+        }
       }
     }
   },
@@ -65,11 +77,26 @@
         "lib/net461/itextsharp.dll",
         "notice.txt"
       ]
+    },
+    "itextsharp.pdfa/5.5.13.4": {
+      "sha512": "arlEfu+BjtrsjU7CCnFyhXFz25G/j6umzgiumwy+OGX21rU7Ba+1qOKEsem81bdkQzteFEeX21GuC8WuRQEDWA==",
+      "type": "package",
+      "path": "itextsharp.pdfa/5.5.13.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "gnu-agpl-v3.0.md",
+        "itextsharp.pdfa.5.5.13.4.nupkg.sha512",
+        "itextsharp.pdfa.nuspec",
+        "lib/net461/itextsharp.pdfa.dll"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "itextsharp >= 5.5.13.4"
+      "itextsharp >= 5.5.13.4",
+      "itextsharp.pdfa >= 5.5.13.4"
     ]
   },
   "packageFolders": {
@@ -78,11 +105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
+      "projectUniqueName": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
       "projectName": "Zugferd",
-      "projectPath": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
+      "projectPath": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
       "packagesPath": "C:\\Users\\thomas.scharf\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\obj\\",
+      "outputPath": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thomas.scharf\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -118,6 +145,10 @@
           "itextsharp": {
             "target": "Package",
             "version": "[5.5.13.4, )"
+          },
+          "itextsharp.pdfa": {
+            "target": "Package",
+            "version": "[5.5.13.4, )"
           }
         },
         "imports": [
@@ -145,8 +176,18 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "Das Paket \"iTextSharp 5.5.13.4\" wurde nicht mit dem Projektzielframework \"net9.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
       "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"itextsharp.pdfa 5.5.13.4\" wurde nicht mit dem Projektzielframework \"net9.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "itextsharp.pdfa",
       "targetGraphs": [
         "net9.0"
       ]

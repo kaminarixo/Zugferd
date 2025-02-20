@@ -1,19 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "iqiCLZx1Yx4=",
+  "dgSpecHash": "dgqDKkElsuQ=",
   "success": true,
-  "projectFilePath": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
+  "projectFilePath": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thomas.scharf\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
-    "C:\\Users\\thomas.scharf\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512"
+    "C:\\Users\\thomas.scharf\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512",
+    "C:\\Users\\thomas.scharf\\.nuget\\packages\\itextsharp.pdfa\\5.5.13.4\\itextsharp.pdfa.5.5.13.4.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "Das Paket \"iTextSharp 5.5.13.4\" wurde nicht mit dem Projektzielframework \"net9.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
       "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"itextsharp.pdfa 5.5.13.4\" wurde nicht mit dem Projektzielframework \"net9.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "itextsharp.pdfa",
       "targetGraphs": [
         "net9.0"
       ]

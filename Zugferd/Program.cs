@@ -7,7 +7,7 @@ namespace ZugferdExample
     {
         static void Main(string[] args)
         {
-
+            
         }
         public static void CreatePDF(string pdfaName,string xmlFile)
         {
@@ -21,7 +21,7 @@ namespace ZugferdExample
             ICC_Profile icc = ICC_Profile.GetInstance(System.IO.Path.Combine(FolderPath, "sRGB_v4_ICC_preference.icm"));
 
             iTextSharp.text.Document document = new iTextSharp.text.Document(iTextSharp.text.PageSize.A4,5f,5f,16f,100f);
-            PdfWriter writer = PdfWriter.GetInstance(document, new FileStream(pdfaName,FileMode.Create));
+            PdfAWriter writer = PdfAWriter.GetInstance(document, new FileStream(pdfaName,FileMode.Create), PdfAConformanceLevel.PDF_A_3B);
             document.Open();
             writer.CreateXmpMetadata();
             writer.Open();

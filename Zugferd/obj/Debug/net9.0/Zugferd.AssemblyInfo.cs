@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zugferd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0b6d2d842458bbd53776ac60c779d6e3b3b038d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ec3dd875c23a0cc094f17e7a328f6d9bd561961")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zugferd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zugferd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

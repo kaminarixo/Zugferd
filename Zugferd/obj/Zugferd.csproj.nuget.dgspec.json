@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj": {}
+    "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj": {}
   },
   "projects": {
-    "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj": {
+    "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
+        "projectUniqueName": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
         "projectName": "Zugferd",
-        "projectPath": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
+        "projectPath": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\Zugferd.csproj",
         "packagesPath": "C:\\Users\\thomas.scharf\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\obj\\",
+        "outputPath": "C:\\Users\\thomas.scharf\\Zugferd\\Zugferd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thomas.scharf\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -45,6 +45,10 @@
           "targetAlias": "net9.0",
           "dependencies": {
             "itextsharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
+            },
+            "itextsharp.pdfa": {
               "target": "Package",
               "version": "[5.5.13.4, )"
             }
